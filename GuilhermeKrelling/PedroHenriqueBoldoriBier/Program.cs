@@ -1,9 +1,5 @@
-using System.Resources;
 using PedroHenriqueBoldoriBier.Models;
 using Microsoft.AspNetCore.Mvc;
-using System.Runtime.InteropServices.JavaScript;
-using Microsoft.EntityFrameworkCore;
-using System.Reflection.Metadata.Ecma335;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<AppDbContext>();
